@@ -80,6 +80,10 @@ $(document).ready(function(){
    
 })
 
+$(window).resize(function(){
+    $('.textCard').width($('.card').width());
+})
+
 
 
 
