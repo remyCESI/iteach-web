@@ -1,0 +1,42 @@
+body {
+    padding-top: 60px;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .col-md-8 {
+      padding-top: 80px;
+    }
+  }
+
+  #navbartop{
+
+    background-color: rgb(236, 234, 234);
+   
+    
+  }
+
+  .textArtcileBlog{
+
+    color : black;
+  }
+
+  .textTitre{
+
+    color : black;
+    font-family: 'BebasNeueRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    color: black;
+    font-size: 35px;
+  
+  }
+
+  footer{
+    height: 100%;
+  }

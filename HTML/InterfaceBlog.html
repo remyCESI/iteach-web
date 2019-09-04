@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="../IMG/logoIteach.png" />
+    <title>ITeach</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../CSS/interface.css">
+    <link rel="stylesheet" href="../imagehover.css-master/css/imagehover.min.css">
+    <link rel="stylesheet" href="../alertifyjs/css/alertify.min.css" />
+    <link rel="stylesheet" href="../alertifyjs/css/themes/default.min.css" />
+
+
+</head>
+
+<body>
+
+    <img src="../IMG/logoIteach.png" alt="" srcset="">
+
+
+
+    <div class="container col-lg-10" id="formulaires">
+        <div class="row">
+            <div class=" card contact center-block col-lg-6">
+                <h2 class="textRem " style="color: white"> Ajouter un post </h2>
+                <div class="containe2 ">
+
+
+                    <div class="formulaire">
+
+                        <form action="../PHP/InsertArticle.php" enctype="multipart/form-data" method="post">
+
+                            <div class="form-group  ">
+                                <label for="IMG" class="textRem" style="color: white">Image</label>
+                                <input type="file" class="form-control bg-transparent border-0 text-white" name="img"
+                                    id="IMG" aria-describedby="Titre" placeholder="ITeach à Bayangam">
+
+                            </div>
+
+                            <div class="form-group text-dark">
+                                <label for="Titre" class="textRem" style="color: white">Titre</label>
+                                <input type="text" class="form-control" name="Titre" id="Titre" aria-describedby="Titre"
+                                    placeholder="ITeach à Bayangam">
+
+                            </div>
+
+                            <div class="form-group text-dark">
+                                <label for="DAte" class="textRem" style="color: white">Date</label>
+                                <input type="date" class="form-control" name="DAte" id="Date" aria-describedby="Date">
+
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="Message" class="textRem" style="color: white">Contenu</label>
+                                <textarea class="form-control" name="message" id="Message" rows="5"></textarea>
+                            </div>
+
+                            <button type="submit" id="send" class="btn bg-white text-dark">Envoyer</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class=" card contact center-block col-lg-6">
+                <h2 class="textRem " style="color: white"> Supprimer un post </h2>
+                <div class="containe2 ">
+
+
+                    <div class="formulaire">
+
+                        <form action="" method="post">
+
+
+                            <div class="form-group">
+                                <label for="Titre" class="textRem" style="color: white">Titre</label>
+                                <select class="form-control" name="titre" id="Titreselection">
+
+                                </select>
+                            </div>
+
+
+                            <button type="submit" id="delete" class="btn bg-white text-dark">Supprimer</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="../alertifyjs/alertify.min.js"></script>
+<script src="../JS/interface.js"></script>
+
+
+
+
+
+
+</html>

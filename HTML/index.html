@@ -1,0 +1,489 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="../IMG/logoIteach.png" />
+    <title>ITeach</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../imagehover.css-master/css/imagehover.min.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg ">
+
+        <button class="navbar-toggler nav-light collapsed" type="button" data-toggle="collapse"
+            data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class=""><i id="bouttonResp" class="rounded border border-white fas fa-bars text-white "
+                    style="padding: 30%;"></i> </span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto listeUL">
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="#leProjet">Le Projet <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="../HTML/Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="#nosAction">Nos Actions</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="#lequipe">L'Equipe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="#nosRealisation">Nos Realisations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="accueil">
+        <img src="../IMG/logoIteach.png" id="logo" alt="" srcset="">
+        <a id="godown" class="js-scrollTo" href="#leProjet">
+            <i class="fas fa-3x fa-angle-down" ></i>
+        </a>
+    </div>
+
+    <div id="leProjet">
+
+
+        <div id="textProjet" width="70%">
+            <p class="TE" style="font-size: 25px"> ITeach, c'est l’accès à l’informatique pour tous et avec du matériel
+                recyclé.</p>
+            <p class="TE2">" Le projet ITeach s’est donné pour principale mission d’améliorer la formation et la
+                sensibilisation des jeunes
+                aux technologies de l’information. Nous recyclons du matériel informatique puis nous le valorisons comme
+                outil pédagogique pour la découverte de l'informatique et des nouvelles technologies. Nous organisons
+                également
+                des ateliers de découverte dans le theme du numerique à travers l'informatique à destination des jeunes
+                et
+                animés par des étudiants passionés. "</p>
+        </div>
+
+
+    </div>
+
+    <h1 id="nosAction" class="textSection textRem">Nos Actions</h1>
+    <div class="container col-lg-8 col-12">
+        <div class=" marketing ">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row ">
+                <div class="col  service">
+                    <img src="../IMG/network.png" class="" width="200" height="200" alt="" srcset="">
+                    <h2>Infrastructure</h2>
+                    <p>Déployer des infrastructures IT pour l’éducation​</p>
+                    <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalInfra"
+                        type="button">Plus de details »</button>
+                </div><!-- /.col-lg-4 -->
+                <div class="col service">
+                    <img src="../IMG/nature.png" width="200" height="200" alt="" srcset="">
+                    <h2>Recyclage</h2>
+                    <p>Recycler du matériel informatique</p>
+                    <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalRecyclage"
+                        type="button">Plus de details »</button>
+                </div><!-- /.col-lg-4 -->
+                <div class="col service">
+                    <img src="../IMG/training.png" width="200" height="200" alt="" srcset="">
+                    <h2>Formation</h2>
+                    <p>Former à l’informatique et aux nouvelles technologies​</p>
+                    <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalFormation"
+                        type="button">Plus de details »</button>
+                </div>
+
+                <div class="col service">
+                    <img src="../IMG/microorganism.png" width="200" height="200" alt="" srcset="">
+                    <h2>Sensibilisation</h2>
+                    <p>Sensibiliser à la sécurité numérique​</p>
+                    <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalSensibilisation"
+                    type="button">Plus de details »</button>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+
+        </div>
+
+    </div>
+
+
+    <div class="modal fade" id="ModalInfra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Infrastructure</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi molestias dolore expedita vero
+                    consequuntur veritatis facilis sit aliquid aperiam, atque, aliquam velit ullam exercitationem
+                    similique tenetur, magnam dolorem commodi architecto!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalRecyclage" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Recyclage</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi molestias dolore expedita vero
+                    consequuntur veritatis facilis sit aliquid aperiam, atque, aliquam velit ullam exercitationem
+                    similique tenetur, magnam dolorem commodi architecto!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalFormation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Formation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi molestias dolore expedita vero
+                    consequuntur veritatis facilis sit aliquid aperiam, atque, aliquam velit ullam exercitationem
+                    similique tenetur, magnam dolorem commodi architecto!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ModalSensibilisation" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Sensibilisation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi molestias dolore expedita vero
+                    consequuntur veritatis facilis sit aliquid aperiam, atque, aliquam velit ullam exercitationem
+                    similique tenetur, magnam dolorem commodi architecto!
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <h1 id="lequipe" class="textSection textRem">L'Equipe</h1>
+
+    <div class="container col-lg-7">
+
+        <div class="row justify-content-around" id="EquipeGall">
+
+            <div class="card   col-5  border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>REMY VANCAMP</H5>
+                    <p class="description">Co-fondateur / Secretaire</p>
+                    <a href="https://www.linkedin.com/in/remy-vancamp-7ba8a0136/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+
+
+            <div class="card   col-5  border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>ALEXANDRE LECOMTE</H5>
+                    <p class="description">Co-fondateur / President</p>
+                    <a href="https://www.linkedin.com/in/alexandre-lecomte-48b169134/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="card   col-5  border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>MAXIME HOLLEBECQ</H5>
+                    <p class="description">Co-fondateur / Tresorier</p>
+                    <a href="https://www.linkedin.com/in/maxime-hollebecq-38342713a/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+            <div class="card  col-5  border-0" width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>CLAIRE BILLAU</H5>
+                    <p class="description">Vice-Presidente</p>
+                    <a href="https://www.linkedin.com/in/claire-billau-76a643154/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+            <div class="card  col-5  border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>PIERRE BURETTE</H5>
+                    <p class="description">Vice-Secretaire</p>
+                    <a href="https://www.linkedin.com/in/pierre-burette-579492151/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+
+            <div class="card  col-5 border-0  " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>ANTOINE MARCOTTE</H5>
+                    <p class="description">Vice-Secretaire</p>
+                    <a href="https://www.linkedin.com/in/antoine-marcotte-aa9237151/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+
+            <div class="card  col-5 border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>THEO BOIVIN</H5>
+                    <p class="description">Animateur</p>
+                    <a href="https://www.linkedin.com/in/theo-boivin/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+            <div class="card  col-5 border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>SAMI KOSBUR</H5>
+                    <p class="description">Animateur</p>
+                    <a href=""><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+            <div class="card  col-5 border-0 " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>CORENTIN GANDOSSI</H5>
+                    <p class="description">Infrastructure</p>
+                    <a href="https://www.linkedin.com/in/corentin-gandossi/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+            <div class="card  col-5 border-0" width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>LOUIS LEDRU</H5>
+                    <p class="description">Animateur</p>
+                    <a href="https://www.linkedin.com/in/louis-ledru-b78296157/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+            <div class="card  col-5 border-0  " width="300" height="300">
+                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <div class="textCard ">
+                    <H5>AYMERIC BEARD</H5>
+                    <p class="description">Animateur</p>
+                    <a href="https://www.linkedin.com/in/aymeric-beard-44292a157/"><i class="fab fa-2x fa-linkedin text-dark;"></i></a>
+                </div>
+            </div>
+
+        
+
+
+        </div>
+    </div>
+
+    <h1 id="nosRealisation" class="textSection textRem">Nos realisations</h1>
+
+    <div class="container col-lg-10">
+        <div class="owl-carousel owl-theme carousel3">
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div>
+                <img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+            <div class="item">
+
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Boiry</H5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
+                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
+                        architecto
+                        eligendi similique repellendus.</p>
+                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
+            </div>
+
+        </div>
+    </div>
+
+
+    <h1 id="contact" class="textSection textRem">Contactez Nous</h1>
+
+    <div class="container col-lg-10">
+        <div class="row">
+
+            <iframe width="700" class="col-lg-6" height="400" frameborder="0"
+                src="https://www.bing.com/maps/embed?h=400&w=700&cp=50.29714133616245~2.734533730163591&lvl=16&typ=s&sty=r&src=SHELL&FORM=MBEDV8"
+                scrolling="no">
+            </iframe>
+
+
+            <div class="contact center-block col-lg-6">
+                <div class="containe2 ">
+                    <div class="socialnetwork row ">
+
+                        <ul class="listeNetwork">
+                            <li>
+                                <a href="https://www.facebook.com/asso.ITeach/"><img src="../IMG/facebook.png" width="100px" height="100px" alt=""
+                                        srcset=""></a>
+
+                            </li>
+                            <li>
+                                <a href="mailto:iteach@outlook.com"><img src="../IMG/maillogo.png" width="100px" height="100px" alt=""
+                                        srcset=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/assoiteach/?viewAsMember=true"><img src="../IMG/Linkd.png" width="100px" height="100px" alt=""></a>
+                            </li>
+
+                            <li>
+                                <a href="tel:+33627190109"><img src="../IMG/Mobile.png" width="100px" height="100px" alt=""
+                                        srcset=""></a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="formulaire">
+
+                        <form action="" method="post">
+                            <div class="form-group text-dark">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control"name="email" id="Email" aria-describedby="emailHelp"
+                                    placeholder="exemple@hotmail.fr">
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="Objet">Objet</label>
+                                <select class="form-control" name="subject" id="Objet">
+                                    <option>Materiel</option>
+                                    <option>Atelier</option>
+                                    <option>Avis</option>
+                                    <option>Information</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Message">Message</label>
+                                <textarea class="form-control" name="message" id="Message" rows="3"></textarea>
+                            </div>
+
+                            <button type="button" id="sendMail" class="btn btn-dark">Submit</button>
+
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+
+<script src="../JS/index.js"></script>
+
+
+</html>
+
+

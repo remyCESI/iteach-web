@@ -1,0 +1,346 @@
+#accueil
+{
+      background-image: url('../IMG/imgAccueil.png');  
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+     
+}
+
+
+#godown{
+
+    color : #ff9881;
+    
+}
+.nav-link{
+    color: white;
+
+    
+}
+
+.nav-link:hover{
+
+    color: #ff9881;
+}
+
+.textRem{
+
+    font-family: 'BebasNeueRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    color: white;
+    font-size: 35px;
+    text-decoration: underline;
+
+    
+}
+
+.textSection{
+    
+    color: #ff9881;
+    margin-top : 20px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    font-size : 50px;
+    text-shadow: 2px 3px 1px black;
+}
+
+.formulaire
+{
+
+}
+
+#leProjet{
+
+    display:flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Lato'; 
+    font-weight: 600; 
+    font-style: italic; 
+    color: black;
+    font-size: 20px;
+
+    padding:5%;
+
+    
+
+}
+
+.service {
+
+   text-align: center;
+
+   margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+
+.marketing{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    
+ }
+
+
+
+.carousel3{
+
+    margin-top: 150px;
+
+}
+
+.card{
+
+    margin-bottom:20px; 
+}
+
+
+
+.owl-prev {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+    height: 54px;
+    position: absolute;
+    top: 40%;
+    width: 27px;
+    z-index: 1000;
+    left: 2%;
+    cursor: pointer;
+    
+    margin-top: -27px;
+    
+  }
+  
+  .owl-next {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+    height: 54px;
+    position: absolute;
+    top: 40%;
+    width: 27px;
+    z-index: 1000;
+    right: 2%;
+    cursor: pointer;
+    
+    margin-top: -27px;
+    
+  }
+
+  .owl-dol{
+
+    display: block;
+  }
+  
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+  }
+  .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot:hover{
+  
+    background: black ;
+    opacity: 1;
+    color: white;
+    width: 50px;  
+  }
+  
+  .owl-carousel 
+  {
+   margin-bottom: 5%;
+ position: relative;
+  }
+
+
+  .textSlide
+  {
+    position: absolute;
+    color:white;
+    font-size:18px;
+    background-color: rgba(0, 0, 0, 0.315);
+    top:60%;
+    margin-bottom:20px; 
+    padding-bottom: 10%;
+    padding-left: 3%;
+
+   
+  }
+
+  .listeNetwork{
+
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    text-align: center;
+
+    padding: 0;
+    margin: 0;
+
+    
+
+  }
+
+  .contact
+  {
+    width:100%;
+   
+
+  }
+
+  .socialnetwork
+{
+  justify-content: center;
+  padding: 0;
+}
+
+.imgCard{
+  position: relative;
+}
+
+.textCard{
+  position: absolute;
+  top: 200;
+  background-color: rgba(0, 0, 0, 0.315);
+  color: white;
+  
+  height: 100px;
+
+  text-align: center;
+  
+}
+
+.description{
+  margin-bottom: 0;
+}
+.navbar-light span.navbar-toggler-icon {
+
+  color: white;
+}
+  
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+  color: white;
+}
+
+.fa-linkedin{
+  color: #ff9881;
+}
+/* media queri 100% pour en dessous du monitor */
+
+@media screen and (max-width: 1346px) {
+
+
+   
+  }
+@media screen and (max-width: 415px) {
+
+    .listeNetwork{
+
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    #logo{
+
+      width: 60%;
+    }
+    .textSlide{
+
+      top: 200;
+
+      font-size : 10px;
+    }
+
+   
+  }
+
+  @media screen and (max-width: 320px) {
+
+    
+    .textSlide{
+
+      top: 120;
+
+      font-size : 10px;
+    }
+
+    .owl-prev {
+      background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+      height: 24px;
+      position: absolute;
+      top: 40%;
+      width: 10px;
+      z-index: 1000;
+      left: 2%;
+      cursor: pointer;
+      
+      margin-top: -27px;
+      
+    }
+    
+    .owl-next {
+      background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+      height: 24px;
+      position: absolute;
+      top: 40%;
+      width: 10px;
+      z-index: 1000;
+      right: 2%;
+      cursor: pointer;
+      
+      margin-top: -27px;
+      
+    }
+
+   
+  }
+  
+
+  @media screen and (max-width: 380px) {
+
+    
+    .textSlide{
+
+      top: 150;
+
+      font-size : 10px;
+    }
+
+    .owl-prev {
+      background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+      height: 24px;
+      position: absolute;
+      top: 40%;
+      width: 10px;
+      z-index: 1000;
+      left: 2%;
+      cursor: pointer;
+      
+      margin-top: -27px;
+      
+    }
+    
+    .owl-next {
+      background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+      height: 24px;
+      position: absolute;
+      top: 40%;
+      width: 10px;
+      z-index: 1000;
+      right: 2%;
+      cursor: pointer;
+      
+      margin-top: -27px;
+      
+    }
+
+   
+  }
