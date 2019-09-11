@@ -1,8 +1,7 @@
-$('#bouttonS')['click'](function() {
-    email = $('#email')['val']();
-    tel = $('#tel')['val']();
-    message = $('#message')['val']();
-    sujet = $('#sujet')['val']();
+$('#sendMail')['click'](function() {
+    email = $('#Email')['val']();
+    message = $('#Message')['val']();
+    sujet = $('#Objet')['val']();
     if (email['length'] > 0 && tel['length'] > 0 && message['length'] > 0 && sujet['length'] > 0) {
         Email['send']({
             Host: 'smtp.elasticemail.com',
