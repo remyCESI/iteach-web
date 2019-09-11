@@ -162,12 +162,14 @@
     position: absolute;
     color:white;
     font-size:18px;
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 0, 0, 0.705);
     top:60%;
     margin-bottom:20px; 
-    padding-bottom: 10%;
+    padding-bottom: 3%;
     padding-left: 3%;
-
+    padding-right: 3%;
+    text-align: justify;
+    padding-top: 1%;
    
   }
 
