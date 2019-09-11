@@ -1,6 +1,6 @@
 #accueil
 {
-      background-image: url('../IMG/imgAccueil.png');  
+      background-image: url('../IMG/welcomeIMG.png');  
       background-size: cover;
       background-repeat: no-repeat;
       height: 100vh;
@@ -207,14 +207,10 @@
 
 .textCard{
   position: absolute;
-  top: 70%;
+  top: 80%;
   background-color: rgba(0, 0, 0, 0.315);
   color: white;
-  
-  
-
   text-align: center;
-  
 }
 
 .description{
