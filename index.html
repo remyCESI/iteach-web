@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="../IMG/logoIteach.png" />
+    <link rel="icon" type="image/png" href="IMG/icon.png" />
     <title>ITeach</title>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebas" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
          
-    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="../CSS/index.css">
-    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="css/animate.css">
    
 
 
@@ -37,19 +37,19 @@
                 <li class="nav-item">
                     <a class="nav-link textRem js-scrollTo" href="#leProjet">Le Projet <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link textRem js-scrollTo" href="../HTML/Blog.html">Blog</a>
+                <li hidden class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="HTML/Blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link textRem js-scrollTo" href="#nosAction">Nos Actions</a>
                 </li>
-
-                <li class="nav-item">
-                    <a class="nav-link textRem js-scrollTo" href="#lequipe">L'Equipe</a>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link textRem js-scrollTo" href="#nosRealisation">Nos Realisations</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link textRem js-scrollTo" href="#lequipe">L'Equipe</a>
+                </li>
+                
 
                 <li class="nav-item">
                     <a class="nav-link textRem js-scrollTo" href="#contact">Contact</a>
@@ -58,7 +58,7 @@
         </div>
     </nav>
     <div id="accueil">
-        <img src="../IMG/logoIteach.png" id="logo" alt="" srcset="">
+        <img src="IMG/logoIteach.png" id="logo" alt="" srcset="">
         <a id="godown" class="js-scrollTo" href="#leProjet">
             <i class="fas fa-3x fa-angle-down" ></i>
         </a>
@@ -93,21 +93,21 @@
             <!-- Three columns of text below the carousel -->
             <div class="row ">
                 <div class="col  service">
-                    <img src="../IMG/network.png" class="" width="200" height="200" alt="" srcset="">
+                    <img src="IMG/network.png" class="" width="200" height="200" alt="" srcset="">
                     <h2>Infrastructure</h2>
                     <p>Déployer des infrastructures IT pour l’éducation​</p>
                     <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalInfra"
                         type="button">Plus de details »</button>
                 </div><!-- /.col-lg-4 -->
                 <div class="col service">
-                    <img src="../IMG/nature.png" width="200" height="200" alt="" srcset="">
+                    <img src="IMG/nature.png" width="200" height="200" alt="" srcset="">
                     <h2>Recyclage</h2>
                     <p>Recycler du matériel informatique</p>
                     <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalRecyclage"
                         type="button">Plus de details »</button>
                 </div><!-- /.col-lg-4 -->
                 <div class="col service">
-                    <img src="../IMG/training.png" width="200" height="200" alt="" srcset="">
+                    <img src="IMG/training.png" width="200" height="200" alt="" srcset="">
                     <h2>Formation</h2>
                     <p>Former à l’informatique et aux nouvelles technologies​</p>
                     <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalFormation"
@@ -115,7 +115,7 @@
                 </div>
 
                 <div class="col service">
-                    <img src="../IMG/microorganism.png" width="200" height="200" alt="" srcset="">
+                    <img src="IMG/microorganism.png" width="200" height="200" alt="" srcset="">
                     <h2>Sensibilisation</h2>
                     <p>Sensibiliser à la sécurité numérique​</p>
                     <button class="btn btn-secondary" data-toggle="modal" href="#" data-target="#ModalSensibilisation"
@@ -211,6 +211,39 @@
         </div>
     </div>
 
+    <h1 id="nosRealisation" class="textSection textRem">Nos realisations</h1>
+
+    <div class="container col-lg-10">
+        <div class="owl-carousel owl-theme carousel3">
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Salle informatique - 14 postes fixes - Boiry-Notre-Dame</H5>
+                    <p>"ITeach m’a proposé un projet cohérent qui permettrait aux élèves de l'école de bénéficier d'ordinateurs recyclés organisés en réseau. Ce dernier a été mis en service et offre aujourd'hui la possibilité à 60 élèves de bénéficier de séances de découverte des TUIC et de pratique informatique mensuelle grâce à des ateliers spécifiques conçus par les bénévoles de l’association." – Directeur de l’école primaire de Boiry-Notre-Dame.</p>
+                </div><img class="rounded" src="IMG/boiry2.jpg" width="100%">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Projet Humanitaire - Clique à Bayangam - Edition 2019</H5>
+                    <p>En juillet 2019, Maxime et Rémy ont formé 35 enfants du village de Bayangam au Cameroun à la programmation informatique. Ce projet a été réalisé en partenariat avec l'<a href="http://www.bayangam-nord.fr/">ARBAF</a>. Découvrez leur aventure sur notre <a href="https://www.facebook.com/asso.ITeach/">page Facebook</a> !</p>
+                </div><img class="rounded" src="IMG/cameroun.jpg">
+            </div>
+            <div class="item">
+                <div class="textSlide">
+                    <H5>Salle informatique - 12 postes portables - Agnières</H5>
+                    <p>Remise en état d'une mâle informatique contenant 12 mini-pc portables. Un réseau Wifi et un serveur de partage de fichiers ont également été mis en place. Ces ordinateurs sont aujourd'hui utilisés aussi bien par l'institutrice en classe que lors de nos ateliers. </p>
+                </div>
+                <img class="rounded" src="IMG/Agniere.jpg" width="100%">
+            </div>
+            <div class="item">
+
+                <div class="textSlide">
+                    <H5>Salle informatique - 4 postes fixes - Ablain-Saint-Nazaire</H5>
+                    <p>Remplacement de postes obsolètes par de nouveaux plus performants. Une suite de logiciels éducatifs a été installée en accord avec les besoins des enseignants de l'école.</p>
+                </div><img class="rounded" src="IMG/ablain1.jpg">
+            </div>
+        </div>
+    </div>
+
 
     <h1 id="lequipe" class="textSection textRem">L'Equipe</h1>
 
@@ -219,7 +252,7 @@
         <div class="row justify-content-around" id="EquipeGall">
 
             <div class="card   col-5  border-0 " width="300" height="300">
-                <img class="rounded" src="../IMG/alexandreL.jpg" width="100%"> 
+                <img class="rounded" src="IMG/remy.png" width="100%"> 
                 <div class="textCard ">
                     <H5>REMY VANCAMP</H5>
                     <p class="description">Co-fondateur / Secretaire</p>
@@ -229,7 +262,7 @@
 
 
             <div class="card   col-5  border-0 "  width="300" height="300">
-                <img class="rounded" src="../IMG/alexandreL.jpg" width="100%"> 
+                <img class="rounded" src="IMG/alexandre.jpg" width="100%"> 
                 <div class="textCard ">
                     <H5>ALEXANDRE LECOMTE</H5>
                     <p class="description">Co-fondateur / President</p>
@@ -240,7 +273,7 @@
 
 
             <div class="card   col-5  border-0 " width="300" height="300">
-                <img class="rounded" src="../IMG/alexandreL.jpg" width="100%">
+                <img class="rounded" src="IMG/maxime.jpg" width="100%">
                 <div class="textCard ">
                     <H5>MAXIME HOLLEBECQ</H5>
                     <p class="description">Co-fondateur / Tresorier</p>
@@ -248,7 +281,7 @@
                 </div>
             </div>
             <div class="card  col-5  border-0" width="300" height="300">
-                <img class="rounded" src="../IMG/alexandreL.jpg" width="100%">
+                <img class="rounded" src="IMG/claire.jpg" width="100%">
                 <div class="textCard ">
                     <H5>CLAIRE BILLAU</H5>
                     <p class="description">Vice-Presidente</p>
@@ -256,7 +289,7 @@
                 </div>
             </div>
             <div class="card  col-5  border-0 " width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/pierre.jpg" width="100%">
                 <div class="textCard ">
                     <H5>PIERRE BURETTE</H5>
                     <p class="description">Vice-Secretaire</p>
@@ -265,7 +298,7 @@
             </div>
 
             <div class="card  col-5 border-0  " width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/antoine.jpg" width="100%">
                 <div class="textCard ">
                     <H5>ANTOINE MARCOTTE</H5>
                     <p class="description">Vice-Secretaire</p>
@@ -274,7 +307,7 @@
             </div>
 
             <div class="card  col-5 border-0 " width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/theo.jpg" width="100%">
                 <div class="textCard ">
                     <H5>THEO BOIVIN</H5>
                     <p class="description">Animateur</p>
@@ -282,7 +315,7 @@
                 </div>
             </div>
             <div class="card  col-5 border-0 " width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/man.jpg" width="100%">
                 <div class="textCard ">
                     <H5>SAMI KOSBUR</H5>
                     <p class="description">Animateur</p>
@@ -290,7 +323,7 @@
                 </div>
             </div>
             <div class="card  col-5 border-0 " width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/coco.jpg" width="100%">
                 <div class="textCard ">
                     <H5>CORENTIN GANDOSSI</H5>
                     <p class="description">Infrastructure</p>
@@ -298,7 +331,7 @@
                 </div>
             </div>
             <div class="card  col-5 border-0" width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/louis.jpg" width="100%">
                 <div class="textCard ">
                     <H5>LOUIS LEDRU</H5>
                     <p class="description">Animateur</p>
@@ -306,7 +339,7 @@
                 </div>
             </div>
             <div class="card  col-5 border-0  " width="300" height="300">
-                <img class="rounded" src="https://placeimg.com/300/300/people">
+                <img class="rounded" src="IMG/man.jpg" width="100%">
                 <div class="textCard ">
                     <H5>AYMERIC BEARD</H5>
                     <p class="description">Animateur</p>
@@ -316,79 +349,6 @@
 
         
 
-
-        </div>
-    </div>
-
-    <h1 id="nosRealisation" class="textSection textRem">Nos realisations</h1>
-
-    <div class="container col-lg-10">
-        <div class="owl-carousel owl-theme carousel3">
-            <div class="item">
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
-            <div class="item">
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div>
-                <img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
-            <div class="item">
-
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
-            <div class="item">
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
-            <div class="item">
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
-            <div class="item">
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
-            <div class="item">
-                <div class="textSlide">
-                    <H5>Boiry</H5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolor atque commodi exercitationem
-                        voluptatum pariatur. Velit eos ipsam saepe, vel fuga est quasi temporibus porro quisquam
-                        architecto
-                        eligendi similique repellendus.</p>
-                </div><img class="rounded" src="https://placeimg.com/800/600/archi">
-            </div>
 
         </div>
     </div>
@@ -411,20 +371,20 @@
 
                         <ul class="listeNetwork">
                             <li>
-                                <a href="https://www.facebook.com/asso.ITeach/"><img src="../IMG/facebook.png" width="100px" height="100px" alt=""
+                                <a href="https://www.facebook.com/asso.ITeach/"><img src="IMG/facebook.png" width="100px" height="100px" alt=""
                                         srcset=""></a>
 
                             </li>
                             <li>
-                                <a href="mailto:iteach@outlook.com"><img src="../IMG/maillogo.png" width="100px" height="100px" alt=""
+                                <a href="mailto:iteach@outlook.com"><img src="IMG/maillogo.png" width="100px" height="100px" alt=""
                                         srcset=""></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/assoiteach/?viewAsMember=true"><img src="../IMG/Linkd.png" width="100px" height="100px" alt=""></a>
+                                <a href="https://www.linkedin.com/company/assoiteach/?viewAsMember=true"><img src="IMG/Linkd.png" width="100px" height="100px" alt=""></a>
                             </li>
 
                             <li>
-                                <a href="tel:+33627190109"><img src="../IMG/Mobile.png" width="100px" height="100px" alt=""
+                                <a href="tel:+33627190109"><img src="IMG/Mobile.png" width="100px" height="100px" alt=""
                                         srcset=""></a>
                             </li>
                         </ul>
@@ -433,7 +393,7 @@
 
                     <div class="formulaire">
 
-                        <form>
+                        <form action="" method="post">
                             <div class="form-group text-dark">
                                 <label for="Email">Email</label>
                                 <input type="email" class="form-control"name="email" id="Email" aria-describedby="emailHelp"
@@ -483,11 +443,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-<script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="../JS/index.js"></script>
-<script src="../JS/contact.js"></script>
+
+<script src="JS/index.js"></script>
 
 
 </html>
