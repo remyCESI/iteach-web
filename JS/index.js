@@ -105,25 +105,8 @@ $('.textCard').width($('.card').width());
  
 
 
-$('#sendMail').click(function(){
 
-    $.post(
-        '../PHP/SendMail.php',
-        {
-            email : $("#Email").val(),
-            objet : $("#Objet").val(),
-            message : $("#Message").val()
 
-        })
-
-        function success(){
-            alertify.set('notifier','position', 'top-right');
-            alertify.success('<i class="fas fa-check-square"></i> Bonjour Dim');
-        }
-
-    
-
-})
 
 
 
