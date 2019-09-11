@@ -207,11 +207,11 @@
 
 .textCard{
   position: absolute;
-  top: 200;
+  top: 70%;
   background-color: rgba(0, 0, 0, 0.315);
   color: white;
   
-  height: 100px;
+  
 
   text-align: center;
   
