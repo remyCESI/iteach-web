@@ -1,3 +1,5 @@
+
+
 $(window).scroll(function(){
     if (document.querySelector('#textProjet').getBoundingClientRect().y > 0) {
 
@@ -38,8 +40,9 @@ else if(document.querySelector('#accueil').getBoundingClientRect().y== 0)
 
 }
 })
+
+
 $(document).ready(function(){
-    $('.textCard').width($('.card').width());
 
     $('.owl-carousel').owlCarousel({
         loop:true,
@@ -76,16 +79,15 @@ $(document).ready(function(){
    
 }
    
-    
-
+  
+$('.textCard').width($('.card').width());
    
 })
 
-$(window).resize(function(){
-    $('.textCard').width($('.card').width());
-})
 
-
+    $(window).resize(function(){
+        $('.textCard').width($('.card').width());
+    })
 
 
     $('.js-scrollTo').on('click', function() { // Au clic sur un élément
