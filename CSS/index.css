@@ -199,7 +199,7 @@
 
   .contact
   {
-    width:100%;
+    width:50%;
    
 
   }
@@ -239,8 +239,12 @@
 }
 /* media queri 100% pour en dessous du monitor */
 
-@media screen and (max-width: 1346px) {
+@media screen and (max-width: 840px) {
 
+  #boiteContactAll{
+
+    flex-direction: column;
+  }
 
    
   }
@@ -348,4 +352,12 @@
     }
 
    
+  }
+
+
+  #boiteContactAll{
+
+    display: flex;
+    flex-direction: row;
+    
   }
