@@ -1,3 +1,11 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'BebasNeueRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
 #accueil
 {
       background-image: url('../IMG/welcomeIMG.png');  
@@ -361,3 +369,30 @@
     flex-direction: row;
     
   }
+
+  footer{
+    margin-top: 50px;
+    height: 125px;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    
+    font-family: 'BebasNeueRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  a:hover, a:focus {
+    color:black;
+    }
+    a{
+      color: black;
+    }
+
+
+    .formulaire{
+
+      font-family: 'BebasNeueRegular'; 
+      font-weight: normal; 
+      font-style: normal; 
+    }
