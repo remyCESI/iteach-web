@@ -1,3 +1,11 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'BebasNeueRegular'; 
+  font-weight: normal; 
+  font-style: normal; 
+}
+
 #accueil
 {
       background-image: url('../IMG/welcomeIMG.png');  
@@ -216,7 +224,7 @@
 
 .textCard{
   position: absolute;
-  top: 80%;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.315);
   color: white;
   text-align: center;
@@ -239,15 +247,10 @@
 }
 /* media queri 100% pour en dessous du monitor */
 
-@media screen and (max-width: 840px) {
 
-  #boiteContactAll{
-
-    flex-direction: column;
-  }
 
    
-  }
+  
 @media screen and (max-width: 415px) {
 
     .listeNetwork{
@@ -361,3 +364,31 @@
     flex-direction: row;
     
   }
+
+  footer{
+    margin-top: 50px;
+  
+    height: 125px;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    
+    font-family: 'BebasNeueRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+  }
+
+  a:hover, a:focus {
+    color:black;
+    }
+    a{
+      color: black;
+    }
+
+
+    .formulaire{
+
+      font-family: 'BebasNeueRegular'; 
+      font-weight: normal; 
+      font-style: normal; 
+    }
