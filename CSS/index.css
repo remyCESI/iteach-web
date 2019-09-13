@@ -247,15 +247,10 @@ body{
 }
 /* media queri 100% pour en dessous du monitor */
 
-@media screen and (max-width: 840px) {
 
-  #boiteContactAll{
-
-    flex-direction: column;
-  }
 
    
-  }
+  
 @media screen and (max-width: 415px) {
 
     .listeNetwork{
