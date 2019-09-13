@@ -11,7 +11,17 @@
       flex-direction: column;
      
 }
+#imgload{
 
+  
+  background-image: url('../img/load.gif');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  position:fixed;
+  z-index: 999;
+  width: 100%;
+}
 
 #godown{
 

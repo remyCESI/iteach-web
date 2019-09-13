@@ -1,4 +1,7 @@
+$(window).on('load',function(){
 
+    $("#imgload").fadeOut("2000");
+})
 
 $(window).scroll(function(){
     if (document.querySelector('#textProjet').getBoundingClientRect().y > 0) {
