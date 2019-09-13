@@ -1,9 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-  font-family: 'BebasNeueRegular'; 
-  font-weight: normal; 
-  font-style: normal; 
+
 }
 
 #accueil
@@ -373,9 +371,7 @@ body{
     color: black;
     font-size: 12px;
     
-    font-family: 'BebasNeueRegular'; 
-    font-weight: normal; 
-    font-style: normal; 
+   
   }
 
   a:hover, a:focus {
@@ -386,9 +382,4 @@ body{
     }
 
 
-    .formulaire{
-
-      font-family: 'BebasNeueRegular'; 
-      font-weight: normal; 
-      font-style: normal; 
-    }
+  

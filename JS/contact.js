@@ -8,7 +8,7 @@ $('#sendMail')['click'](function() {
             Username: 'iteach@outlook.fr',
             Password: 'ee0474ad-22db-4d7e-91e1-c11c38cb606f',
             To: 'iteach@outlook.fr',
-            From: 'rem.vancamp@gmail.co',
+            From: 'iteach@outlook.fr',
             Subject: sujet,
             Body: 'de:  ' + email + '  son message est:   ' + message
         })['then'](alert('merci beaucoup'))
