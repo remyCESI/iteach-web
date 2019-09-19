@@ -178,16 +178,26 @@ body{
     position: absolute;
     bottom: 0;
     color:white;
-    font-size:18px;
     background-color: rgba(0, 0, 0, 0.705);
-    
-    
+  
     padding-bottom: 3%;
     padding-left: 3%;
     padding-right: 3%;
     text-align: justify;
     padding-top: 1%;
    
+  }
+
+
+  .textSlide p {
+
+    font-size: 1vw;
+  }
+
+  .titreSlide {
+
+    font-size: inherit;
+    font-size:2vw;
   }
 
   .listeNetwork{
@@ -263,12 +273,19 @@ body{
 
       width: 60%;
     }
-    .textSlide{
+ 
 
-      top: 200;
+    .textSlide p {
 
-      font-size : 10px;
+      font-size: 1vw;
     }
+  
+    .titreSlide {
+  
+      font-size: inherit;
+      font-size:2vw;
+    }
+  
 
    
   }
@@ -276,12 +293,6 @@ body{
   @media screen and (max-width: 320px) {
 
     
-    .textSlide{
-
-      top: 120;
-
-      font-size : 10px;
-    }
 
     .owl-prev {
       background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
@@ -313,18 +324,27 @@ body{
 
    
   }
+  @media screen and (max-width: 1080px) 
+  {
+
+    .textSlide p {
+
+      font-size: 2vw;
+    }
   
+    .titreSlide {
+  
+      font-size: inherit;
+      font-size:3vw;
+    }
+
+  }
+
+
+
 
   @media screen and (max-width: 380px) {
 
-    
-    .textSlide{
-
-      position: absolute;
-  bottom: 0;
-
-      font-size : 10px;
-    }
 
     .owl-prev {
       background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
