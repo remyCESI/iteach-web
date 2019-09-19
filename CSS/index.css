@@ -176,11 +176,12 @@ body{
   .textSlide
   {
     position: absolute;
+    bottom: 0;
     color:white;
     font-size:18px;
     background-color: rgba(0, 0, 0, 0.705);
-    top:60%;
-    margin-bottom:20px; 
+    
+    
     padding-bottom: 3%;
     padding-left: 3%;
     padding-right: 3%;
@@ -319,7 +320,8 @@ body{
     
     .textSlide{
 
-      top: 150;
+      position: absolute;
+  bottom: 0;
 
       font-size : 10px;
     }
