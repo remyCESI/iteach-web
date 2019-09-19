@@ -1,0 +1,13 @@
+.legals {
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.legals p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.legals h4 {
+    margin-top: 20px;
+}
