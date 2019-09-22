@@ -89,12 +89,15 @@ body{
 }
 
 .service {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
 
-   text-align: center;
-
-   margin-top: 30px;
-    margin-bottom: 60px;
-    
+.service img {
+  align-self: center;
 }
 
 .marketing{
